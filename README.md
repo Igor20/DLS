@@ -31,32 +31,19 @@ Repo for deep learning school
 Результирующая информация появляется в верхнем левом углу того же экрана.
 
 #### Системные символы
-
-1.<img src="./images/start.jpg" width="200" height="200">
-2.<img src="./images/reset.jpg" width="200" height="200">
-3.<img src="./images/switch_on.jpg" width="200" height="200">
-4.<img src="./images/switch_off.jpg" width="200" height="200">
-1. Начало работы алгоритма
-2. Сбросить информацию
-3. Включить устройство
-4. Выключить устройство
+|Начало работы алгоритма| Сбросить информацию |Включить устройство |Выключить устройство|
+| ----------- | ----------- |---------- |----------- |
+|<img src="./images/start.jpg" width="200" height="200">|<img src="./images/reset.jpg" width="200" height="200">|<img src="./images/switch_on.jpg" width="200" height="200">|<img src="./images/switch_off.jpg" width="200" height="200">|
 
 #### Символы объектов
+|Чайник|Телевизор |Мультимедиа|Микроволновка|
+| ----------- | ----------- |---------- |----------- |
+|<img src="./images/tp.jpg" width="200" height="200">|<img src="./images/tv.jpg" width="200" height="200">|<img src="./images/music.jpg" width="200" height="200">|<img src="./images/microwave.jpg" width="200" height="200">|
 
-1.<img src="./images/tp.jpg" width="200" height="200">
-2.<img src="./images/tv.jpg" width="200" height="200">
-3.<img src="./images/music.jpg" width="200" height="200">
-4.<img src="./images/microwave.jpg" width="200" height="200">
-5.<img src="./images/light.jpg" width="200" height="200">
-6.<img src="./images/curtain.jpg" width="200" height="200">
-7.<img src="./images/ac.jpg" width="200" height="200">
-1. Чайник
-2. Телевизор
-3. Мультимедиа
-4. Микроволновка
-5. Свет
-6. Шторы
-7. Кондиционер
+|Свет|Шторы |Кондиционер|
+| ----------- | ----------- |---------- |
+|<img src="./images/light.jpg" width="200" height="200">|<img src="./images/curtain.jpg" width="200" height="200">|<img src="./images/ac.jpg" width="200" height="200">|
+
 
 Пример работы можно посмотреть на [видео](https://drive.google.com/file/d/1yhadFEX73UuLX_kdVjgKdY2Fa3N_RJ-P/view?usp=sharing)
 
