@@ -49,7 +49,7 @@ def msg_recognition(msg, timeout=7):
                 elif 1 in f:                #Part fingers
                     if f[4] and diff(points[5][0], points[4][0]) > 20:
                         message_operation("Teapot")
-                    elif not f[2] and f[1] and diff(points[10][0], points[4][0]) > 25:
+                    elif not f[2] and f[1] and diff(points[10][0], points[4][0]) > 45:
                         message_operation("Light")
                     elif f[1] and f[2] and diff(points[8][0], points[12][0]) > 15:
                         message_operation("TV")
@@ -79,13 +79,26 @@ def get_act():
 def message_operation(info):
     global switch_on
     global message
+    valid_message(info)
 
     if switch_on:
         logger.info(f"Act ON Info: {info}")
-        message = f"Switch ON {info}"
+        if prev_msg[1] > 6:
+            message = f"Switch ON {info}"
     else:
         logger.info(f"Act OFF Info: {info}")
-        message = f"Switch OFF {info}"
+        if prev_msg[1] > 6:
+            message = f"Switch OFF {info}"
+
+
+def valid_message(info):
+    global prev_msg
+
+    if prev_msg[0] != info:
+        prev_msg[0] = info
+        prev_msg[1] = 0
+    else:
+        prev_msg[1] += 1
 
 
 def video_frame_callback(frame):
